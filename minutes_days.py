@@ -8,11 +8,13 @@ Author: Lin.O
 Created: 08/02/2021
 ------------------------------------------------------------------------------
 """
+print("*****Minutes to Days and Hours *****")
+
 #get minutes 
 minutes = int(input("How many mintues are you calculating? "))
 days = minutes//1440
-hours = (minutes % 1440 - days)//60
-minutess = minutes % 60
+hours = (minutes%1440 - days)//60
+minutess = minutes%60
 
 #output
-print(minutes, "minutes = ", days, "days", hours, "hours", minutess ,"minutes")
+print(str(minutes) + " minutes = " + str(days) + " days " + str(hours) + " hours " + str(minutess) + " minutes ")

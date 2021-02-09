@@ -8,6 +8,8 @@ Author: Lin.O
 Created: 08/02/2021
 ------------------------------------------------------------------------------
 """
+print("*****Fahrenheit to Celcius*****")
+
 #get Fahrenheit 
 fahrenheit = float(input("What is your Fahrenheit? "))
 celcius = 5/9 * (fahrenheit-32)
